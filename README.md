@@ -9,6 +9,7 @@
    this=hal9000
    ```
 3. Setup some local specific e.g. screen configuration (this should be hosted in repo)
+
 env-screen-hal9000.sh
  ```
  EXTERNAL_OUTPUT="DP2-1"
@@ -25,5 +26,7 @@ else
  xrandr --output $INTERNAL_OUTPUT --mode 1920x1080
 fi
 ```
+
+4. Primary `.bashrc` form [Env!](https://github.com/hicolour/env) is loading .private-bashrc from ~/.personal - it's the best to put your cusotmization 
 
 
